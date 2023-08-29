@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Page Title</title>
-  <script src="rps.js"></script>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <script src ="rps.js" defer></script>
+    <link rel="stylesheet" href="rps.css">
 </head>
 <body>
-  
-  
+    <h1>Rock Paper Scissors</h1>
+	<h2>First to 5 Wins! Choose your fighter!</h2>
+    <div class="buttons">
+        <button class="btn" id="rock"><img src="images/rock.png" alt="rock image"/></button>
+        <button class="btn" id="paper"><img src="images/paper.png" alt="paper image"/></button>
+        <button class="btn" id="scissors"><img src="images/scissors.png" alt="scissors image"/></button>
+    </div>
+    <div class="text-line">
+    <p class="text" id="player-score">Player Score:</p>
+    <p class="text" id="comp-score">Computer Score:</p>
+    </div>
+    <div>
+        <p class="text" id="output">May the Best Person Win!</p>
+		<button onclick="music_play()" class="music" id="play"><img src="images/m_play.png" alt="play music" id="m_play"/></button>
+		<button onclick="music_stop()" class="music" id="stop"><img src="images/m_stop.png" alt="stop music" id="m_stop"/></button>
+    </div>
+    <footer>Music is copyrighted and i don't own any of it, this was made as an exercise project for TheOdinProject</footer>
 </body>
 </html>

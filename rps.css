@@ -1,0 +1,84 @@
+html{
+    font-size: 20px;
+    background: url(images/background.jpg);
+	background-size: contain;
+    background-size: 100% 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.btn{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    outline: none;
+}
+
+.btn:hover {
+  transition-duration: 0.1s;
+  background-color: #f0fff7;
+}
+
+
+img{
+    width: 125px;
+    height: 150px;  
+}
+
+.music{
+	display: inline-block;
+	margin:0;	
+}
+
+.music img{
+	width: 35px;
+    height: 35px;
+}
+
+.text-line{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.text{
+    margin: 50px;
+}
+
+#output{
+    font-size: 45px;
+	display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: gray;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+	padding-left:10px;
+}
+
+#stop{
+	visibility: hidden;
+	display: none;
+}
+
